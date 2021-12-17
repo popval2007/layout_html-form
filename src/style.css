@@ -1,1 +1,8 @@
-/* styles go here */
+.form_field:not(:last-of-type) {
+  display: block;
+  margin-bottom: 10px;
+}
+  
+fieldset:not(:last-of-type) {
+  margin-bottom: 20px;
+}
